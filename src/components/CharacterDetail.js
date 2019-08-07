@@ -14,7 +14,7 @@ const CharacterDetail = props => {
         .catch(err=>console.log(err));
       },[]);
 
-    const {image,name,status,species,type,gender} = character;
+    const {image,name,status,species,type,gender,location,origin} = character;
       
     return (
         <div className="container">
@@ -24,8 +24,9 @@ const CharacterDetail = props => {
                     <div className="name">name: {name}</div>
                     <div className="status">status: {status}</div>
                     <div className="species">species: {species}</div>
-                    <div className="type">type: {type}</div>
                     <div className="gender">gender: {gender}</div>
+                    <div className="location">location: {location?location.name:''}</div>
+                    <div className="origin">origin: {origin?origin.name:''}</div>                   
                 </div>
             </div>
         </div>
