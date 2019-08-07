@@ -1,33 +1,53 @@
-.App {
-  text-align: center;
+body
+{
+    background:#383838;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h3
+{
+    color:rgb(92, 218, 218);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav
+{
+    min-height:60px;
+    background:#0f0f0f;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-ul
+{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-menu
+{
+    display:grid;
+    align-content: center;
 }
+
+.rick-logo
+{
+    height:60px;
+    margin-left:3px;
+}
+
+.nav-ul a 
+{
+    text-decoration:none;
+    color:rgb(92, 218, 218);
+    font-size:20px;
+}
+
+.container
+{
+    width:90%;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+
+

@@ -1,0 +1,29 @@
+.details
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background:#000;
+    color:rgb(92, 218, 218);
+    border:1px solid rgb(92, 218, 218);
+    padding:10px;
+}
+
+.avatar
+{
+    padding-top:2px;
+}
+
+.info
+{
+    align-content: center;
+    display:grid;
+    text-transform: uppercase;
+    grid-gap:10px;
+    font-size:24px;
+}
+
+.info div
+{
+    border-bottom:1px rgb(92, 218, 218) solid;
+}
